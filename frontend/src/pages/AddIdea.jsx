@@ -63,7 +63,7 @@ function AddIdea() {
       setSuccess(true);
       setFormData({ title: '', description: '', category: '' });
       setToast({ message: 'Idea created successfully!', type: 'success' });
-
+    
       // Redirect to dashboard after 1.5 seconds
       setTimeout(() => {
         navigate('/dashboard');
