@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:9000/api';
+const API_URL = process.env.REACT_APP_API_URL || 'https://idea-share-5.onrender.com/api';
 
 const api = axios.create({
   baseURL: API_URL,
